@@ -18,9 +18,16 @@ public class Topic_00_Template {
 
 
     @Test
-    public void TC_02_Run_On_Edge() {
+    public void TC_02_Run_On_Chrome() {
+        driver = new ChromeDriver();
+        driver.get("https://alada.vn/tai-khoan/dang-ky.html");
+        driver.quit();
+    }
+
+    @Test
+    public void TC_03_Run_On_Edge() {
         driver = new EdgeDriver();
-        driver.get("https://www.facebook.com/");
+        driver.get("https://alada.vn/tai-khoan/dang-ky.html");
         driver.quit();
     }
 }

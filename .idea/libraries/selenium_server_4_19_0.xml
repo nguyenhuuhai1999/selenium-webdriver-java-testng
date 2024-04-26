@@ -1,0 +1,24 @@
+<component name="libraryTable">
+  <library name="selenium-server-4.19.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libraries/selenium-server-4.19.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/sourcesDocs/selenium-api-4.19.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/sourcesDocs/selenium-chrome-driver-4.19.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/sourcesDocs/selenium-chromium-driver-4.19.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/sourcesDocs/selenium-devtools-v85-4.19.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/sourcesDocs/selenium-edge-driver-4.19.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/sourcesDocs/selenium-firefox-driver-4.19.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/sourcesDocs/selenium-grid-4.19.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/sourcesDocs/selenium-http-4.19.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/sourcesDocs/selenium-ie-driver-4.19.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/sourcesDocs/selenium-json-4.19.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/sourcesDocs/selenium-manager-4.19.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/sourcesDocs/selenium-remote-driver-4.19.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/sourcesDocs/selenium-safari-driver-4.19.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/sourcesDocs/selenium-support-4.19.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
