@@ -30,4 +30,12 @@ public class Topic_00_Template {
         driver.get("https://alada.vn/tai-khoan/dang-ky.html");
         driver.quit();
     }
+
+    public void sleepInseconds(long timeInSecond){
+        try{
+            Thread.sleep(timeInSecond*1000);
+        }catch(InterruptedException e){
+            throw new RuntimeException(e);
+        }
+    }
 }
