@@ -6,6 +6,8 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
+import java.time.Duration;
+
 public class Topic_00_Template {
     WebDriver driver;
 
@@ -13,6 +15,7 @@ public class Topic_00_Template {
     public void TC_01_Run_On_Firefox() {
         driver = new FirefoxDriver();
         driver.get("https://www.facebook.com/");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         driver.quit();
     }
 
